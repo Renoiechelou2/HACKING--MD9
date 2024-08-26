@@ -1,5 +1,5 @@
 {
-  "name":"HACKING-MD",
+  "name":"chyeng",
   "description":"bot whatsapp développé par THOMAS TECH",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://telegra.ph/file/7113ddc85a26a69a7a437.jpg",
@@ -10,7 +10,7 @@
     "PREFIXE":
     {
       "description":"choisissez votre préfixe",
-      "value":"@",
+      "value":"!",
       "required":true
     },
     "LECTURE_AUTO_STATUS":
@@ -28,7 +28,7 @@
     "NOM_BOT" : {
        
       "description":"Un nom pour votre bot",
-      "value":"HACKING-MD",
+      "value":"chyeng",
       "required":false
 
     } ,
@@ -50,7 +50,7 @@
     "MODE_PUBLIC":
     {
       "description":"oui pour le mode public ou non pour le mode privé(Dans ce vous seul  utiliserez le bot)",
-      "value":"oui",
+      "value":"non",
       "required":false
     }
 	,
@@ -65,13 +65,13 @@
 	  ,
     "ETAT":{
 		  "description":"marquez votre présence : 1 pour signaler que vous êtes en ligne même si vous ne l'êtes pas . 2 pour dire que vous êtes entrain d écrire un message. 3 pour signaler que vous êtes entrain de d enregistrer un audio . ou laissez le champs  vide pour signaler votre état réel.  ",
-		  "value":"1",
+		  "value":"2",
 		  "required": false
 	  },
     "SESSION_ID":
     {
       "description":"veuillez renseigner votre id de session",   
-      "value":"",
+      "value":"HACKING-MD;;;=>eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiU0lYQVgxK3diOWhrMjF0L2FCcjhtQVVwQjFlRXJzdlp0L3dXWlpENlUxWT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoid1crRVRHVXJ5M1VQY2RPUG04OStWRnJ0ZXNBYyszZ0VoUCtJVGFEVXB6OD0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJVQm5JMHVvSVJtc2tVNGRpYWU0bFhONndQZ2dkOFBkaW5pckNRK2x4T0dVPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJPaDJ6QmJWWHJRSFVoa0NRNzBFZDlaNmRkOUJXMWROV2RHQXIvdmw4b2hRPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InVMUlRQKzVLL1NPeGMvRkpRalMxbnZnbjk1ZFVuWWRLK3pKdS9Lb1F1Vm89In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Im9YTWJWUlQ4a1dCaFBQb1BwbitleWt0Z2RVMk1ySkRGQTdxa2paM2t6MEk9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZUMydmx3UG8va0MwZHc3dHZvdjhKSmpUbXUrUGNzNlRobjQ3VjhOSEVrWT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiMnd0ZFVaSGFuVFZYbFkxUWlVWW4ySVh2TmhLK0NMNG44ZzNWaC9tY1BDcz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkREZ0xKTnpnM2REckxMOUpKNFNPTzhhQjR5TTNrSVJ6Q2VtZDJ2dEdCNnhYSVh6TGg3UkFqazZWOWY0MHFLVU5KWGxncDBhV2VOY21WMDhSKytra0NnPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjEwLCJhZHZTZWNyZXRLZXkiOiJDbGxFTitNTzRDR2IwZ3U2REtuaWRJcmRqYU9qSzFTNXZYMTZKMVNYMXhrPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJlbnVUMXBRdVF5U2N6MzBoc0VjSjFBIiwicGhvbmVJZCI6ImFkMGIwZmI2LTUxY2UtNGE3ZC1iMmZlLWJhZGNhYTYzYzQwNyIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJDS0ZMdGtOdWtST2lzREtOSGNDUXJKa25BWHM9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoidWlucm9xeG5NU05TMWVnWUtneFdBbjhSVk5zPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IkpKVzk2R01RIiwibWUiOnsiaWQiOiIyMjc5OTIyOTU5ODo1N0BzLndoYXRzYXBwLm5ldCIsIm5hbWUiOiLqp4E/IOKEkPCdk7bwnZO58J2TrvCdk7vwnZOy8J2TqvCdk7Ug8J2TtPCdk7LwnZO38J2TsCDwnZOR8J2TtfCdk6rwnZOs8J2TtOqngiJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDTDZjemJFQ0VOU1Z0TFlHR0EwZ0FDZ0EiLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoiY0QwdEZIenpmU3V6ZU9PWThzVHZ0ZFZEd1VDY1AwS0huQ25vMDVDeUVUOD0iLCJhY2NvdW50U2lnbmF0dXJlIjoiV1J6cjExQmZNaTNSRDIwYWJVenoxZkFrK2F6b2p2Vzl3ZEk5Vy9IL1RKTHg0eTFobGhuZFZ1NEdHdUVwWDQyekxlNGRFN29tbzR6MlNtYzBTcVBsQXc9PSIsImRldmljZVNpZ25hdHVyZSI6IkVRbURjRUZBQkdRSDQ2UzBSOUgycUlxUWFZdURLWUtzZFVvNWVRNDZ3aWFQNy96R29naXIyQVdNNmQ3ZS96OHB0UmdIVnRuWUlycFhKZFN6V3NYdUJRPT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiMjI3OTkyMjk1OTg6NTdAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCWEE5TFJSODgzMHJzM2pqbVBMRTc3WFZROEZBbkQ5Q2g1d3A2Tk9Rc2hFLyJ9fV0sInBsYXRmb3JtIjoic21iYSIsImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTcyNDcxMzY5OCwibXlBcHBTdGF0ZUtleUlkIjoiQUFBQUFCK1gifQ==",
       "required":true
       
     },
@@ -87,7 +87,7 @@
     
     "description": "Votre numero de telephone; il doit etre dans le format ID+numero",
     "required":false,
-    "value": "22545065189"
+    "value": "22799229598"
   },
     
 
@@ -107,13 +107,13 @@
   {
     "description": "Mettez oui si vous voulez que le contenue des message en vue unique vous sois envoyez en pv",
     "required": false,
-    "value": "non"
+    "value": "oui"
   },
   "PM_CHATBOT":
   {
     "description": "Mettez oui si vous voulez que les message que le bot reponde automatiquement aux messages en pv et il peut même causer avec vos proches sans votre avis",
     "required": false,
-    "value": "non"
+    "value": "oui"
   },
   "ANTI_COMMAND_SPAM" : {
         "description":"Ajoutez un temps de refroidissement d'une minute apres chaque commande pour les autres utilisateur c'est-à-dire supprimer les messages du groupe(pour activer choississez *oui* ou *laisser* simplement)",
